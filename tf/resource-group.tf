@@ -1,4 +1,4 @@
-resource "azurerm_resource_group" "deploying_to_the_cloud_demo" {
+resource "azurerm_resource_group" "rg" {
 
     name = "deploying_to_the_cloud_demo"
 
