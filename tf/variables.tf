@@ -3,3 +3,8 @@ variable "subscription_id" {
     type = string
     sensitive = true
 }
+
+variable "PORT" {
+    description = "Port for NODE"
+    type = string
+}

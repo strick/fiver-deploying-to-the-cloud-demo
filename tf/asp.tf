@@ -26,4 +26,8 @@ resource "azurerm_app_service" "webapp" {
     manual_integration = true
     use_mercurial      = false
   }
+
+  app_settings = {
+    "PORT" = var.PORT
+  }
 }
