@@ -28,6 +28,7 @@ resource "azurerm_app_service" "webapp" {
   }
 
   app_settings = {
-    "PORT" = var.PORT
+    PORT = var.PORT,
+    SCM_DO_BUILD_DURING_DEPLOYMENT=true
   }
 }
